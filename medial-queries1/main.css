@@ -1,3 +1,91 @@
-body {
-  background: blanchedalmond;
+
+* {
+  border: 1px solid mediumvioletred;
+  box-sizing: border-box;
 }
+
+  body {
+    margin-right:auto;
+    margin-left: auto;
+    max-width:1200 px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(223, 223, 223);
+    text-align: center;
+
+  }                  
+
+  .container {
+    display: flexbox;
+    justify-content: space-around;
+}          
+
+.c {
+  width: 35%;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+float: left;
+font-size: 50px;
+
+}
+.b {
+  width: 60%;
+  height: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  float:left;
+  font-size: 50px;
+}  
+.a {
+  width: 100%;
+  height: 100px;
+  float: inline-start;
+  margin:auto;
+  font-size: 50px;
+  padding: auto;
+
+}
+
+
+
+
+@media screen and (max-width: 1080px) {
+
+  .a {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+  } 
+  
+  .b {
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  } 
+  
+  .c {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+
+
+  } 
+}
+
+
+  
