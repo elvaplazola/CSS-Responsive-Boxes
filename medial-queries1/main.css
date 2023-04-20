@@ -1,8 +1,4 @@
 
-* {
-  border: 1px solid mediumvioletred;
-  box-sizing: border-box;
-}
 
   body {
     margin-right:auto;
@@ -27,6 +23,8 @@
   margin-left: 10px;
 float: left;
 font-size: 50px;
+border: 2px solid rgb(71, 71, 71);
+
 
 }
 .b {
@@ -38,6 +36,8 @@ font-size: 50px;
   margin-left: 10px;
   float:left;
   font-size: 50px;
+  border: 2px solid rgb(71, 71, 71);
+
 }  
 .a {
   width: 100%;
@@ -46,6 +46,7 @@ font-size: 50px;
   margin:auto;
   font-size: 50px;
   padding: auto;
+  border: 2px solid rgb(71, 71, 71);
 
 }
 
