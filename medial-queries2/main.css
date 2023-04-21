@@ -1,3 +1,151 @@
-body {
-  background: papayawhip;
-}
+  body {
+    background: papayawhip;
+    margin-right:auto;
+    margin-left: auto;
+    max-width:1200 px;
+    background: papayawhip;
+    text-align: center;
+
+  }                  
+  .container {
+    display: flexbox;
+    justify-content: space-around;
+  }
+
+  .a {
+  width: 95%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid rgb(71, 71, 71);
+  font-size: 100px;
+  }
+
+  .b {
+    width: 77.5%;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 45px;
+    border: 2px solid rgb(71, 71, 71);
+    font-size: 100px;
+    float: left
+    }
+  .c {
+    width: 25%;
+    height: 300px;
+    margin:auto;
+    margin-right: 20px;
+    margin-left: 45px;
+    display: inline-block;
+    border: 2px solid rgb(71, 71, 71);
+    font-size: 100px;
+    float:left;
+
+  } 
+  .d {
+    width: 25%;
+    height: 300px;
+    margin: auto;
+    margin-right: 20px;
+    display: inline-block;
+    border: 2px solid rgb(71, 71, 71);
+    font-size: 100px;
+    float:left;
+
+      
+  } 
+  .e {
+    width: 25%;
+    height: 300px;
+    margin: auto;
+    margin-right: 20px;
+    display: inline-block;
+    border: 2px solid rgb(71, 71, 71);
+    font-size: 100px;
+    float:left;
+
+  }
+  .f {
+    width: 15%;
+    height: 575px;
+    border: 2px solid rgb(71, 71, 71);
+    font-size: 100px;
+    margin-left: auto;
+    margin-right:45px;
+
+  }
+  @media screen and (max-width: 1080px) {
+
+
+    .container {
+      display: flexbox;
+      justify-content: space-between;
+    }
+      
+.a {
+  width: 95%;
+  height: 250px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 2px solid rgb(71, 71, 71);
+  font-size: 100px;
+} 
+.b {
+  width: 95%;
+  height: 550px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  border: 2px solid rgb(71, 71, 71);
+  font-size: 100px;
+
+} 
+.c {
+  width: 25%;
+  height: 150px;
+  margin-left: 70px;
+  display: inline-block;
+  flex-direction: row;
+  border: 2px solid rgb(71, 71, 71);
+  font-size: 100px;
+  padding: 5px;
+  
+
+} 
+.d {
+  width: 25%;
+  height: 150px;
+  display: inline-block;
+  flex-direction: row;
+  border: 2px solid rgb(71, 71, 71);
+  font-size: 100px;
+  padding: 5px;
+
+
+} 
+.e {
+  width: 25%;
+  height: 150px;
+  margin-bottom: 50px;
+  display: inline-block;
+  flex-direction: row;
+  border: 2px solid rgb(71, 71, 71);
+  font-size: 100px;
+  padding: 5px;
+
+  
+
+} 
+.f {
+  width: 95%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  border: 2px solid rgb(71, 71, 71);
+  font-size: 100px;
+} 
+  }
